@@ -1,0 +1,10 @@
+/* Example Tailwind import */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Your custom styles here */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
