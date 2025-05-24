@@ -1,10 +1,66 @@
-/* Example Tailwind import */
+/* Tailwind base imports */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Your custom styles here */
+/* Custom Web3 Styles */
+
 body {
-  font-family: Arial, sans-serif;
-  margin: 20px;
+  background: #0e0e14;
+  color: #e0e0ff;
+  font-family: 'Orbitron', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 40px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #7f5af0;
+  text-shadow:
+    0 0 10px #7f5af0,
+    0 0 20px #7f5af0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+li {
+  background: linear-gradient(145deg, #1f1f2e, #292945);
+  margin-bottom: 1rem;
+  border-radius: 12px;
+  box-shadow:
+    0 0 15px rgba(127, 90, 240, 0.6),
+    inset 0 0 10px rgba(127, 90, 240, 0.3);
+  transition: box-shadow 0.3s ease;
+}
+
+li:hover {
+  box-shadow:
+    0 0 25px #7f5af0,
+    inset 0 0 20px #a084ff;
+}
+
+a {
+  display: block;
+  padding: 1rem 1.5rem;
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #c9baff;
+  text-decoration: none;
+  text-shadow: 0 0 5px #a084ff;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #fff;
+  text-shadow:
+    0 0 8px #e0bfff,
+    0 0 20px #c77aff;
 }
